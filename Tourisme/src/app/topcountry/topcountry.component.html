@@ -1,0 +1,27 @@
+<section id="popular-destinations" class="popular-destinations py-5">
+  <div class="container-fluid container-fluid-max">
+    <div class="row d-flex bd-highlight mb-3">
+      <div class="col-12">
+        <h2 class="pb-3 text-red popular">Popular Destinations</h2>
+      </div>
+      <div class="p-2 bd-highlight col-md-3" *ngFor="let c of country">
+        <a href="" class="text-white">
+          <figure class="position-relative overflow-hidden">
+            <img class="img-fluid" src="http://localhost:51473/Image/{{c.Poste_image}}" alt="Vienna">
+            <figcaption class="d-flex align-items-center justify-content-center position-absolute">
+              <h3>{{c.Pay}}</h3>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+
+
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <a class="btn bg-red text-white" href="" role="button">More Destinations ↓</a>
+      </div>
+    </div>
+
+  </div>
+</section>

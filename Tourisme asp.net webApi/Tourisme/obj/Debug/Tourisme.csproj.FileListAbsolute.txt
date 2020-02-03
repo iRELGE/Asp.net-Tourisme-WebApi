@@ -1,0 +1,534 @@
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.dll.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csc.exe
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csc.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csc.rsp
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csi.exe
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csi.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\csi.rsp
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.AppContext.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Console.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.IO.Compression.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Claims.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.ValueTuple.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\vbc.exe
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\vbc.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\vbc.rsp
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\VBCSCompiler.exe
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Antlr3.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\EntityFramework.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\EntityFramework.SqlServer.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Newtonsoft.Json.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Http.Formatting.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Helpers.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.WebHost.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Mvc.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Optimization.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Razor.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.Razor.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.Data.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.Logique.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\WebGrease.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.Data.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.Data.dll.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Tourisme.Logique.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Newtonsoft.Json.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Http.Formatting.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Helpers.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.WebHost.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Mvc.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Optimization.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Razor.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.WebPages.Razor.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Antlr3.Runtime.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\EntityFramework.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\EntityFramework.SqlServer.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Http.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Razor.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\EntityFramework.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\System.Web.Http.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\obj\Debug\Tourisme.csprojAssemblyReference.cache
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\obj\Debug\Tourisme.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\obj\Debug\Tourisme.csproj.CopyComplete
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\obj\Debug\Tourisme.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\obj\Debug\Tourisme.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Web.Http.Cors.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Owin.Cors.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\fr\Microsoft.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\netstandard.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.AppContext.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Collections.Concurrent.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Collections.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Collections.NonGeneric.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Collections.Specialized.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ComponentModel.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ComponentModel.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Console.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Data.Common.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.Contracts.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.Debug.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.Process.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.Tools.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Diagnostics.Tracing.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Drawing.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Dynamic.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Globalization.Calendars.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Globalization.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Globalization.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.Compression.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.FileSystem.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.IsolatedStorage.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.Pipes.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Linq.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Linq.Expressions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Linq.Parallel.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Linq.Queryable.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Http.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.NameResolution.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.NetworkInformation.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Ping.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Requests.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Security.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.Sockets.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.WebSockets.Client.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Net.WebSockets.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ObjectModel.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Reflection.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Reflection.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Reflection.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Resources.Reader.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Resources.ResourceManager.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Resources.Writer.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Handles.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.InteropServices.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Numerics.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Claims.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.Principal.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Security.SecureString.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Text.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Text.RegularExpressions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.Overlapped.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.Tasks.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.Thread.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.ThreadPool.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Threading.Timer.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ValueTuple.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.ReaderWriter.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.XmlDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.XmlSerializer.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.XPath.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Options.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Buffers.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.ComponentModel.Annotations.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Memory.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Numerics.Vectors.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Text.Encodings.Web.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Options.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Buffers.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Memory.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Numerics.Vectors.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme\bin\System.Text.Encodings.Web.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.dll.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.pdb
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csc.exe
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csc.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csc.rsp
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csi.exe
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csi.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\csi.rsp
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.AppContext.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Console.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.IO.Compression.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Claims.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.ValueTuple.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\vbc.exe
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\vbc.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\vbc.rsp
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\VBCSCompiler.exe
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\netstandard.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.AppContext.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Collections.Concurrent.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Collections.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Collections.NonGeneric.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Collections.Specialized.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ComponentModel.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ComponentModel.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Console.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Data.Common.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.Contracts.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.Debug.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.Process.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.Tools.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Diagnostics.Tracing.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Drawing.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Dynamic.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Globalization.Calendars.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Globalization.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Globalization.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.Compression.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.FileSystem.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.IsolatedStorage.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.Pipes.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Linq.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Linq.Expressions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Linq.Parallel.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Linq.Queryable.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Http.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.NameResolution.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.NetworkInformation.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Ping.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Requests.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Security.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Sockets.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.WebSockets.Client.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.WebSockets.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ObjectModel.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Reflection.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Reflection.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Reflection.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Resources.Reader.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Resources.ResourceManager.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Resources.Writer.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Handles.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.InteropServices.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Numerics.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Claims.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.Principal.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Security.SecureString.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Text.Encoding.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Text.RegularExpressions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.Overlapped.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.Tasks.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.Thread.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.ThreadPool.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Threading.Timer.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ValueTuple.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.ReaderWriter.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.XmlDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.XmlSerializer.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.XPath.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Antlr3.Runtime.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\EntityFramework.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\EntityFramework.SqlServer.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Options.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Newtonsoft.Json.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Buffers.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.ComponentModel.Annotations.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Memory.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Http.Formatting.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Numerics.Vectors.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Text.Encodings.Web.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Helpers.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.Cors.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.Owin.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.WebHost.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Mvc.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Optimization.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Razor.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.Razor.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.Data.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.Logique.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\WebGrease.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.Data.pdb
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.Data.dll.config
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Tourisme.Logique.pdb
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Options.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Cors.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Buffers.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Memory.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Net.Http.Formatting.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Numerics.Vectors.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Text.Encodings.Web.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.Cors.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Newtonsoft.Json.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Helpers.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.WebHost.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Mvc.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Optimization.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Razor.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.WebPages.Razor.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Antlr3.Runtime.pdb
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\EntityFramework.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\EntityFramework.SqlServer.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\System.Web.Http.Owin.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\Microsoft.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Http.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Razor.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\EntityFramework.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\bin\fr\System.Web.Http.Owin.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\obj\Debug\Tourisme.csprojAssemblyReference.cache
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\obj\Debug\Tourisme.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\obj\Debug\Tourisme.csproj.CopyComplete
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\obj\Debug\Tourisme.dll
+C:\Users\Youcode\source\repos\projet Youcode\t\Tourisme asp.net webApi\Tourisme\obj\Debug\Tourisme.pdb

@@ -1,0 +1,5 @@
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Logique\bin\Debug\Tourisme.Logique.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Logique\bin\Debug\Tourisme.Logique.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Logique\obj\Debug\Tourisme.Logique.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Logique\obj\Debug\Tourisme.Logique.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Logique\obj\Debug\Tourisme.Logique.pdb

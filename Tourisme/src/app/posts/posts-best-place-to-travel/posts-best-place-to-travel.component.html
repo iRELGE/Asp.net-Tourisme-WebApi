@@ -1,0 +1,51 @@
+  <div class="container">
+    <div class="row">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-none d-lg-block">
+
+              <div class="slide-box">
+                <div class="card w-22 p-6" style="max-width:301px ;" *ngFor="let aps of allPosts">
+
+                  <img class="card-image " class="pic p1" src="http://localhost:51473/Image/{{aps.Poste_image}}">
+                  <!--rating-->
+                  <div style="text-align:center">
+                    <star-rating value="{{aps.noteAvis}}" checkedcolor="red" uncheckedcolor="black" size="24px"
+                      readonly="true"></star-rating>
+                  </div>
+                  <!--salahna-->
+                  <div class="card-text">
+                    <span class="date"></span>
+
+                    <h2><a [routerLink]="[aps.ID,'DetailPost']">{{aps.Poste_title}}</a></h2>
+
+                    <p>{{aps.Poste_description}}</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>

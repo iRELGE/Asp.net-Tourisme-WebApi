@@ -1,0 +1,17 @@
+<div class="col-12">
+  <h2 class="pb-3 text-red">Best activities</h2>
+</div>
+
+<div id="container">
+  <div class="overlay-left"></div>
+  <div class="overlay-right"></div>
+  <div id="grid" class="image-cropper">
+    <img *ngFor="let url of betsA; let i = index" [@move]="state" (@move.done)="onFinish($event)"
+      (@move.start)="onStart($event)" [attr.class]="i" src="http://localhost:51473/Image/{{url.Activite_image}}"
+      alt="" />
+  </div>
+  <div>
+    <a id="slider-buttons-left" (click)="moveLeft()">&#10094;</a>
+    <a id="slider-buttons-right" (click)="moveRight()">&#10095;</a>
+  </div>
+</div>

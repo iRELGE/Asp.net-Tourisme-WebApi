@@ -1,0 +1,33 @@
+.popular-destinations figure {
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.popular-destinations figcaption {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* .img-fluid {
+  object-fit: cover !important;
+} */
+
+.popular-destinations img {
+  filter: grayscale(100%) blur(3px);
+  transition: transform 0.5s, filter 0.75s;
+  object-fit: cover !important;
+  object-position: center;
+}
+
+.popular-destinations a:hover img {
+  transform: scale(1.25);
+  filter: none;
+}
+
+.popular {
+  justify-content: center;
+  text-align: center;
+}

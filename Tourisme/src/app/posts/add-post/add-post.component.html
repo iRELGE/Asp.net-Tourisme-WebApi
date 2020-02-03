@@ -1,0 +1,50 @@
+<div class="row mt-3">
+  <div class="col-md-6">
+    <h1>New article</h1>
+  </div>
+  <div class="col-md-6 text-right"><a href="" class="btn btn-link"><i class="fa fa-arrow-circle-left"></i> Back to
+      list</a></div>
+</div>
+<div class="row">
+  <div class="col-md-6 mx-auto">
+
+    <form [formGroup]="artircleForm" (ngSubmit)="persistArticle()">
+      <div class="form-group">
+        <label for="title">title</label>
+        <input formControlName="title" id="title" type="text" class="form-control">
+        <div *ngIf="artircleForm.get('title').touched && artircleForm.get('title').invalid" class="alert alert-danger">
+          <div *ngIf="artircleForm.get('title').errors.required">Title is Required !</div>
+          <div *ngIf="artircleForm.get('title').errors.minlength">Title should be great than 10 Caracters !</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="body">body</label>
+        <textarea formControlName="body" name="" id="body" rows="5" class="form-control"></textarea>
+        <div *ngIf="artircleForm.get('body').touched && artircleForm.get('body').invalid" class="alert alert-danger">
+          <div *ngIf="artircleForm.get('body').errors.required">Body is Required !</div>
+        </div>
+      </div>
+
+
+
+      <button [disabled]="artircleForm.invalid" class="btn btn-success btn-block">
+        <i class="fa fa-send"></i> Create new Poste
+      </button>
+    </form>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col s8 offset-2">
+      <div class="card-panel teal lighten-2">
+        <h4 class="center white-text">Image Library</h4>
+      </div>
+      <form #imageForm=ngForm>
+
+        <img [src]="imageUrl" style="width:250px;height:200px">
+        <input type="file" #Image accept="image/*" (change)="handleFileInput($event.target.files)">
+
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<!-- <div class="row" *ngIf="userClaims">
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-content">
+        <span>Username :{{userClaims.UserName}}</span>
+        <br>
+        <span>Email : {{userClaims.Email}}</span>
+        <br>
+        <span>Full Name : {{userClaims.FirstName}} {{userClaims.LastName}}</span>
+        <br>
+        <span>Logged On : {{userClaims.LoggedOn}}</span>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- <app-navbar-add-photo></app-navbar-add-photo> -->
+
+
+<app-navbar></app-navbar>
+<app-navbar-list-photo></app-navbar-list-photo>
+
+
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <tr *ngFor="let cat of listCategorie">
+      <td> <a class="dropdown-item" href="#">{{cat.Categorie_title}}
+          <i class="{{cat.Categorie_icone}}"></i>
+        </a></td>
+    </tr>
+  </div>
+</div>
+<!-- <app-navbar-add-photo></app-navbar-add-photo> -->
+<!-- <app-posts-best-activities></app-posts-best-activities> -->
+
+<app-posts-best-place-to-travel></app-posts-best-place-to-travel>
+<angular-image-slider [autoRotate]="true" [autoRotateAfter]="5000" [autoRotateRight]="true" [images]="imagesUrl">
+
+</angular-image-slider>
+<app-items></app-items>
+
+
+<app-newhostels></app-newhostels>
+<app-feedback></app-feedback>
+<app-topcountry></app-topcountry>
+<!-- <app-add-post></app-add-post> -->
+<app-footer></app-footer>

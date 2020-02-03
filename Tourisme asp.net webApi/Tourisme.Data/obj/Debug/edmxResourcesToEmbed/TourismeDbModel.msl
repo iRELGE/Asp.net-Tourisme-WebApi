@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TourismeModelStoreContainer" CdmEntityContainer="TourismeEntities">
+    <EntitySetMapping Name="AcriviteAvis">
+      <EntityTypeMapping TypeName="TourismeModel.AcriviteAvi">
+        <MappingFragment StoreEntitySet="AcriviteAvis">
+          <ScalarProperty Name="AcriviteAvi_datecreation" ColumnName="AcriviteAvi_datecreation" />
+          <ScalarProperty Name="AcriviteAvi_activite_id" ColumnName="AcriviteAvi_activite_id" />
+          <ScalarProperty Name="AcriviteAvi_client_id" ColumnName="AcriviteAvi_client_id" />
+          <ScalarProperty Name="AcriviteAvi_note" ColumnName="AcriviteAvi_note" />
+          <ScalarProperty Name="AcriviteAvi_description" ColumnName="AcriviteAvi_description" />
+          <ScalarProperty Name="AcriviteAvi_Titre" ColumnName="AcriviteAvi_Titre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activites">
+      <EntityTypeMapping TypeName="TourismeModel.Activite">
+        <MappingFragment StoreEntitySet="Activite">
+          <ScalarProperty Name="Acrivite_date_creation" ColumnName="Acrivite_date-creation" />
+          <ScalarProperty Name="Acrivite_poste_id" ColumnName="Acrivite_poste_id" />
+          <ScalarProperty Name="Activite_client_id" ColumnName="Activite_client_id" />
+          <ScalarProperty Name="Activite_image" ColumnName="Activite_image" />
+          <ScalarProperty Name="Activite_description" ColumnName="Activite_description" />
+          <ScalarProperty Name="Activite_titre" ColumnName="Activite_titre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="TourismeModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="TourismeModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="TourismeModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="TourismeModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Avis">
+      <EntityTypeMapping TypeName="TourismeModel.Avi">
+        <MappingFragment StoreEntitySet="Avis">
+          <ScalarProperty Name="IdClient" ColumnName="IdClient" />
+          <ScalarProperty Name="DateAvi" ColumnName="DateAvi" />
+          <ScalarProperty Name="IdPoste" ColumnName="IdPoste" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="TourismeModel.Categorie">
+        <MappingFragment StoreEntitySet="Categorie">
+          <ScalarProperty Name="Catégorie_icone" ColumnName="Catégorie_icone" />
+          <ScalarProperty Name="Catégorie_title" ColumnName="Catégorie_title" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="TourismeModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Client_Prenom" ColumnName="Client_Prenom" />
+          <ScalarProperty Name="Client_age" ColumnName="Client_age" />
+          <ScalarProperty Name="Client_CIN" ColumnName="Client_CIN" />
+          <ScalarProperty Name="Client_adresse" ColumnName="Client_adresse" />
+          <ScalarProperty Name="Client_image" ColumnName="Client_image" />
+          <ScalarProperty Name="Client_Nom" ColumnName="Client_Nom" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Demandes">
+      <EntityTypeMapping TypeName="TourismeModel.Demande">
+        <MappingFragment StoreEntitySet="Demande">
+          <ScalarProperty Name="Date_fin" ColumnName="Date_fin" />
+          <ScalarProperty Name="Date_debut" ColumnName="Date_debut" />
+          <ScalarProperty Name="Demande_description" ColumnName="Demande_description" />
+          <ScalarProperty Name="Demande_title" ColumnName="Demande_title" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ClientID2" ColumnName="ClientID2" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postes">
+      <EntityTypeMapping TypeName="TourismeModel.Poste">
+        <MappingFragment StoreEntitySet="Poste">
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Ville" ColumnName="Ville" />
+          <ScalarProperty Name="Pay" ColumnName="Pay" />
+          <ScalarProperty Name="Date_CreationPost" ColumnName="Date_CreationPost" />
+          <ScalarProperty Name="Etat" ColumnName="Etat" />
+          <ScalarProperty Name="Date_fin" ColumnName="Date_fin" />
+          <ScalarProperty Name="Date_debut" ColumnName="Date_debut" />
+          <ScalarProperty Name="Poste_description" ColumnName="Poste_description" />
+          <ScalarProperty Name="Poste_image" ColumnName="Poste_image" />
+          <ScalarProperty Name="Poste_title" ColumnName="Poste_title" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ClientID2" ColumnName="ClientID2" />
+          <ScalarProperty Name="CategorieID" ColumnName="CategorieID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PublicitNavBars">
+      <EntityTypeMapping TypeName="TourismeModel.PublicitNavBar">
+        <MappingFragment StoreEntitySet="PublicitNavBar">
+          <ScalarProperty Name="Pub_title" ColumnName="Pub_title" />
+          <ScalarProperty Name="Pub_image" ColumnName="Pub_image" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="TourismeModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetUser">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRole">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

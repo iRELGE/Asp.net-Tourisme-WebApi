@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f2ee532cd3f442dbb71001f5749ea69e" Name="Diagram1">
+        <EntityTypeShape EntityType="TourismeModel.AcriviteAvi" Width="1.5" PointX="12" PointY="10.125" />
+        <EntityTypeShape EntityType="TourismeModel.Activite" Width="1.5" PointX="9.75" PointY="10" />
+        <EntityTypeShape EntityType="TourismeModel.AspNetRole" Width="1.5" PointX="0.75" PointY="13.25" />
+        <EntityTypeShape EntityType="TourismeModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="16.875" />
+        <EntityTypeShape EntityType="TourismeModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="14.375" />
+        <EntityTypeShape EntityType="TourismeModel.AspNetUser" Width="1.5" PointX="3" PointY="12" />
+        <EntityTypeShape EntityType="TourismeModel.Avi" Width="1.5" PointX="9.75" PointY="6.125" />
+        <EntityTypeShape EntityType="TourismeModel.Categorie" Width="1.5" PointX="5.25" PointY="6.625" />
+        <EntityTypeShape EntityType="TourismeModel.Client" Width="1.5" PointX="5.25" PointY="9.375" />
+        <EntityTypeShape EntityType="TourismeModel.Demande" Width="1.5" PointX="7.5" PointY="26.25" />
+        <EntityTypeShape EntityType="TourismeModel.Poste" Width="1.5" PointX="7.5" PointY="9.125" />
+        <EntityTypeShape EntityType="TourismeModel.PublicitNavBar" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="TourismeModel.FK_AcriviteAvis" />
+        <AssociationConnector Association="TourismeModel.FK_AcriviteAvis2" />
+        <AssociationConnector Association="TourismeModel.FK_Activite" />
+        <AssociationConnector Association="TourismeModel.FK_Activite2" />
+        <AssociationConnector Association="TourismeModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="TourismeModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="TourismeModel.FK_Client" />
+        <AssociationConnector Association="TourismeModel.FK__Avis__IdFormatio__15502E78" />
+        <AssociationConnector Association="TourismeModel.FK_Avis" />
+        <AssociationConnector Association="TourismeModel.FKPoste642112" />
+        <AssociationConnector Association="TourismeModel.FKDemande126305" />
+        <AssociationConnector Association="TourismeModel.FKDemande928989" />
+        <AssociationConnector Association="TourismeModel.FKPoste488982" />
+        <AssociationConnector Association="TourismeModel.FKPoste686297" />
+        <AssociationConnector Association="TourismeModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

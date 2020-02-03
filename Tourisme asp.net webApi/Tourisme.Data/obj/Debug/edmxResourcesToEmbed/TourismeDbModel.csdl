@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TourismeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TourismeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AcriviteAvis" EntityType="TourismeModel.AcriviteAvi" />
+    <EntitySet Name="Activites" EntityType="TourismeModel.Activite" />
+    <EntitySet Name="AspNetRoles" EntityType="TourismeModel.AspNetRole" />
+    <EntitySet Name="AspNetUserClaims" EntityType="TourismeModel.AspNetUserClaim" />
+    <EntitySet Name="AspNetUserLogins" EntityType="TourismeModel.AspNetUserLogin" />
+    <EntitySet Name="AspNetUsers" EntityType="TourismeModel.AspNetUser" />
+    <EntitySet Name="Avis" EntityType="TourismeModel.Avi" />
+    <EntitySet Name="Categories" EntityType="TourismeModel.Categorie" />
+    <EntitySet Name="Clients" EntityType="TourismeModel.Client" />
+    <EntitySet Name="Demandes" EntityType="TourismeModel.Demande" />
+    <EntitySet Name="Postes" EntityType="TourismeModel.Poste" />
+    <EntitySet Name="PublicitNavBars" EntityType="TourismeModel.PublicitNavBar" />
+    <AssociationSet Name="FK_AcriviteAvis" Association="TourismeModel.FK_AcriviteAvis">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="AcriviteAvi" EntitySet="AcriviteAvis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AcriviteAvis2" Association="TourismeModel.FK_AcriviteAvis2">
+      <End Role="Activite" EntitySet="Activites" />
+      <End Role="AcriviteAvi" EntitySet="AcriviteAvis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Activite" Association="TourismeModel.FK_Activite">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Activite" EntitySet="Activites" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Activite2" Association="TourismeModel.FK_Activite2">
+      <End Role="Poste" EntitySet="Postes" />
+      <End Role="Activite" EntitySet="Activites" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="TourismeModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaim" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="TourismeModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogin" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client" Association="TourismeModel.FK_Client">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Avis__IdFormatio__15502E78" Association="TourismeModel.FK__Avis__IdFormatio__15502E78">
+      <End Role="Poste" EntitySet="Postes" />
+      <End Role="Avi" EntitySet="Avis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Avis" Association="TourismeModel.FK_Avis">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Avi" EntitySet="Avis" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste642112" Association="TourismeModel.FKPoste642112">
+      <End Role="Categorie" EntitySet="Categories" />
+      <End Role="Poste" EntitySet="Postes" />
+    </AssociationSet>
+    <AssociationSet Name="FKDemande126305" Association="TourismeModel.FKDemande126305">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Demande" EntitySet="Demandes" />
+    </AssociationSet>
+    <AssociationSet Name="FKDemande928989" Association="TourismeModel.FKDemande928989">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Demande" EntitySet="Demandes" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste488982" Association="TourismeModel.FKPoste488982">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Poste" EntitySet="Postes" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste686297" Association="TourismeModel.FKPoste686297">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Poste" EntitySet="Postes" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="TourismeModel.AspNetUserRoles">
+      <End Role="AspNetRole" EntitySet="AspNetRoles" />
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AcriviteAvi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AcriviteAvi_Titre" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="AcriviteAvi_description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AcriviteAvi_note" Type="Double" />
+    <Property Name="AcriviteAvi_client_id" Type="Int32" Nullable="false" />
+    <Property Name="AcriviteAvi_activite_id" Type="Int32" Nullable="false" />
+    <Property Name="AcriviteAvi_datecreation" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Client" Relationship="TourismeModel.FK_AcriviteAvis" FromRole="AcriviteAvi" ToRole="Client" />
+    <NavigationProperty Name="Activite" Relationship="TourismeModel.FK_AcriviteAvis2" FromRole="AcriviteAvi" ToRole="Activite" />
+  </EntityType>
+  <EntityType Name="Activite">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Activite_titre" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Activite_description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Activite_image" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Activite_client_id" Type="Int32" Nullable="false" />
+    <Property Name="Acrivite_poste_id" Type="Int32" Nullable="false" />
+    <Property Name="Acrivite_date_creation" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AcriviteAvis" Relationship="TourismeModel.FK_AcriviteAvis2" FromRole="Activite" ToRole="AcriviteAvi" />
+    <NavigationProperty Name="Client" Relationship="TourismeModel.FK_Activite" FromRole="Activite" ToRole="Client" />
+    <NavigationProperty Name="Poste" Relationship="TourismeModel.FK_Activite2" FromRole="Activite" ToRole="Poste" />
+  </EntityType>
+  <EntityType Name="AspNetRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="TourismeModel.AspNetUserRoles" FromRole="AspNetRole" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUser" Relationship="TourismeModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaim" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogin">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ProviderKey" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUser" Relationship="TourismeModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogin" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="TourismeModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserClaim" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="TourismeModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserLogin" />
+    <NavigationProperty Name="Clients" Relationship="TourismeModel.FK_Client" FromRole="AspNetUser" ToRole="Client" />
+    <NavigationProperty Name="AspNetRoles" Relationship="TourismeModel.AspNetUserRoles" FromRole="AspNetUser" ToRole="AspNetRole" />
+  </EntityType>
+  <EntityType Name="Avi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="Note" Type="Double" />
+    <Property Name="IdPoste" Type="Int32" />
+    <Property Name="DateAvi" Type="DateTime" Precision="7" />
+    <Property Name="IdClient" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Poste" Relationship="TourismeModel.FK__Avis__IdFormatio__15502E78" FromRole="Avi" ToRole="Poste" />
+    <NavigationProperty Name="Client" Relationship="TourismeModel.FK_Avis" FromRole="Avi" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="Categorie">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Catégorie_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Catégorie_icone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Postes" Relationship="TourismeModel.FKPoste642112" FromRole="Categorie" ToRole="Poste" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Client_Nom" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Client_image" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Client_adresse" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Client_CIN" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Client_age" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Client_Prenom" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="User_id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AcriviteAvis" Relationship="TourismeModel.FK_AcriviteAvis" FromRole="Client" ToRole="AcriviteAvi" />
+    <NavigationProperty Name="Activites" Relationship="TourismeModel.FK_Activite" FromRole="Client" ToRole="Activite" />
+    <NavigationProperty Name="AspNetUser" Relationship="TourismeModel.FK_Client" FromRole="Client" ToRole="AspNetUser" />
+    <NavigationProperty Name="Avis" Relationship="TourismeModel.FK_Avis" FromRole="Client" ToRole="Avi" />
+    <NavigationProperty Name="Demandes" Relationship="TourismeModel.FKDemande126305" FromRole="Client" ToRole="Demande" />
+    <NavigationProperty Name="Demandes1" Relationship="TourismeModel.FKDemande928989" FromRole="Client" ToRole="Demande" />
+    <NavigationProperty Name="Postes" Relationship="TourismeModel.FKPoste488982" FromRole="Client" ToRole="Poste" />
+    <NavigationProperty Name="Postes1" Relationship="TourismeModel.FKPoste686297" FromRole="Client" ToRole="Poste" />
+  </EntityType>
+  <EntityType Name="Demande">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID2" Type="Int32" Nullable="false" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="Demande_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Demande_description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Date_debut" Type="DateTime" Precision="0" />
+    <Property Name="Date_fin" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Client" Relationship="TourismeModel.FKDemande126305" FromRole="Demande" ToRole="Client" />
+    <NavigationProperty Name="Client1" Relationship="TourismeModel.FKDemande928989" FromRole="Demande" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="Poste">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategorieID" Type="Int32" Nullable="false" />
+    <Property Name="ClientID2" Type="Int32" Nullable="false" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="Poste_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Poste_image" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Poste_description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Date_debut" Type="DateTime" Precision="0" />
+    <Property Name="Date_fin" Type="DateTime" Precision="0" />
+    <Property Name="Etat" Type="Boolean" />
+    <Property Name="Date_CreationPost" Type="DateTime" Precision="7" />
+    <Property Name="Pay" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Ville" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Adress" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Activites" Relationship="TourismeModel.FK_Activite2" FromRole="Poste" ToRole="Activite" />
+    <NavigationProperty Name="Avis" Relationship="TourismeModel.FK__Avis__IdFormatio__15502E78" FromRole="Poste" ToRole="Avi" />
+    <NavigationProperty Name="Categorie" Relationship="TourismeModel.FKPoste642112" FromRole="Poste" ToRole="Categorie" />
+    <NavigationProperty Name="Client" Relationship="TourismeModel.FKPoste488982" FromRole="Poste" ToRole="Client" />
+    <NavigationProperty Name="Client1" Relationship="TourismeModel.FKPoste686297" FromRole="Poste" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="PublicitNavBar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pub_image" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Pub_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_AcriviteAvis">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.AcriviteAvi" Role="AcriviteAvi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AcriviteAvi">
+        <PropertyRef Name="AcriviteAvi_client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AcriviteAvis2">
+    <End Type="TourismeModel.Activite" Role="Activite" Multiplicity="1" />
+    <End Type="TourismeModel.AcriviteAvi" Role="AcriviteAvi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activite">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AcriviteAvi">
+        <PropertyRef Name="AcriviteAvi_activite_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Activite">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Activite" Role="Activite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Activite">
+        <PropertyRef Name="Activite_client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Activite2">
+    <End Type="TourismeModel.Poste" Role="Poste" Multiplicity="1" />
+    <End Type="TourismeModel.Activite" Role="Activite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Poste">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Activite">
+        <PropertyRef Name="Acrivite_poste_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Type="TourismeModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="TourismeModel.AspNetUserClaim" Role="AspNetUserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Type="TourismeModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="TourismeModel.AspNetUserLogin" Role="AspNetUserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client">
+    <End Type="TourismeModel.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Avis__IdFormatio__15502E78">
+    <End Type="TourismeModel.Poste" Role="Poste" Multiplicity="0..1" />
+    <End Type="TourismeModel.Avi" Role="Avi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Poste">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Avi">
+        <PropertyRef Name="IdPoste" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Avis">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Avi" Role="Avi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Avi">
+        <PropertyRef Name="IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste642112">
+    <End Type="TourismeModel.Categorie" Role="Categorie" Multiplicity="1" />
+    <End Type="TourismeModel.Poste" Role="Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorie">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="CategorieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKDemande126305">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Demande" Role="Demande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Demande">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKDemande928989">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Demande" Role="Demande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Demande">
+        <PropertyRef Name="ClientID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste488982">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Poste" Role="Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste686297">
+    <End Type="TourismeModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="TourismeModel.Poste" Role="Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="ClientID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Type="TourismeModel.AspNetRole" Role="AspNetRole" Multiplicity="*" />
+    <End Type="TourismeModel.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+  </Association>
+</Schema>

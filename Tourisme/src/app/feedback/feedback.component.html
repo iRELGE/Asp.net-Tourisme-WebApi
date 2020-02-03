@@ -1,0 +1,107 @@
+<section class="pt-5 circle-1">
+
+  <div class="ourworks-box container pb-5 pt-5">
+    <h1 class="our-works-head">Our Clients say</h1>
+    <p>Check out what clients say about our services. Happy clients all over the world. Share your experience with us by
+      submitting your reviews</p>
+  </div>
+
+  <div class="container pb-5 position-relative">
+    <div id="demo" class="carousel slide position-relative" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class=""></li>
+        <li data-target="#demo" data-slide-to="1" class="active"></li>
+        <li data-target="#demo" data-slide-to="2" class=""></li>
+      </ul>
+
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-item-left">
+          <div class="d-flex">
+            <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column " *ngFor="let av of avis">
+              <a href="#" class="introduce pb-3">
+                <div class="flex-column-1 ">
+                  <p class="pr-2 pl-3 pt-4">{{av.Description}}
+                  </p>
+                </div>
+                <div class="flex-column-2 d-flex">
+                  <img class="pic p1" src="http://localhost:51473/Image/{{av.Client_image}}">
+
+
+                  <div class="information  flex-column pl-3 pt-2">
+                    <p>{{av.Client_Prenom}}</p>
+                  </div>
+                </div>
+                <span></span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="carousel-item carousel-item-next carousel-item-left">
+          <div class="d-flex">
+            <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column " *ngFor="let av of avis">
+              <a href="#" class="introduce pb-3">
+                <div class="flex-column-1 ">
+                  <p class="pr-2 pl-3 pt-4">{{av.Description}}
+                  </p>
+                </div>
+                <div class="flex-column-2 d-flex">
+                  <img class="pic p1" src="http://localhost:51473/Image/{{av.Client_image}}">
+                  <div class="information  flex-column pl-3 pt-2">
+                    <p>{{av.Client_Prenom}}</p>
+                  </div>
+                </div>
+                <span></span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="carousel-item ">
+          <div class="d-flex">
+            <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column " *ngFor="let av of avis">
+              <a href="#" class="introduce pb-3">
+                <div class="flex-column-1 ">
+                  <p class="pr-2 pl-3 pt-4">{{av.Description}}
+                  </p>
+                </div>
+                <div class="flex-column-2 d-flex">
+                  <img class="pic p1" src="http://localhost:51473/Image/{{av.Client_image}}">
+                  <div class="information  flex-column pl-3 pt-2">
+                    <p>{{av.Client_Prenom}}</p>
+                  </div>
+                </div>
+                <span></span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+
+      <a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -10%;">
+        <i class="fas fa-chevron-left" style="color:#5969f6; font-size:30px;"></i>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next"
+        style="opacity: 1; transform: rotate(-180deg); right: -10%;">
+        <i class="fas fa-chevron-left" style="color:#5969f6; font-size:30px;"></i>
+      </a>
+
+
+    </div>
+
+
+
+  </div>
+
+
+</section>

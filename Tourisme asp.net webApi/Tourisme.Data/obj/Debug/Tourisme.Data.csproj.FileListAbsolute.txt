@@ -1,0 +1,13 @@
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\Tourisme.Data.dll.config
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\Tourisme.Data.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\Tourisme.Data.pdb
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\EntityFramework.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\EntityFramework.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\obj\Debug\Tourisme.Data.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\obj\Debug\Tourisme.Data.csproj.CopyComplete
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\obj\Debug\Tourisme.Data.dll
+C:\Users\Youcode\source\repos\projet Youcode\Tourisme\Tourisme.Data\obj\Debug\Tourisme.Data.pdb

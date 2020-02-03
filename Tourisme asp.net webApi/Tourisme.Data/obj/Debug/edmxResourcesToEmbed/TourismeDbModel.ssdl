@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TourismeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AcriviteAvis">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AcriviteAvi_Titre" Type="nvarchar" MaxLength="150" />
+    <Property Name="AcriviteAvi_description" Type="nvarchar" MaxLength="500" />
+    <Property Name="AcriviteAvi_note" Type="float" />
+    <Property Name="AcriviteAvi_client_id" Type="int" Nullable="false" />
+    <Property Name="AcriviteAvi_activite_id" Type="int" Nullable="false" />
+    <Property Name="AcriviteAvi_datecreation" Type="date" />
+  </EntityType>
+  <EntityType Name="Activite">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Activite_titre" Type="nvarchar" MaxLength="200" />
+    <Property Name="Activite_description" Type="nvarchar" MaxLength="500" />
+    <Property Name="Activite_image" Type="nvarchar" MaxLength="150" />
+    <Property Name="Activite_client_id" Type="int" Nullable="false" />
+    <Property Name="Acrivite_poste_id" Type="int" Nullable="false" />
+    <Property Name="Acrivite_date-creation" Type="date" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Avis">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="varchar" MaxLength="100" />
+    <Property Name="Description" Type="varchar" MaxLength="300" />
+    <Property Name="Note" Type="float" />
+    <Property Name="IdPoste" Type="int" />
+    <Property Name="DateAvi" Type="datetime2" Precision="7" />
+    <Property Name="IdClient" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categorie">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Catégorie_title" Type="varchar" MaxLength="255" />
+    <Property Name="Catégorie_icone" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Client_Nom" Type="varchar" MaxLength="255" />
+    <Property Name="Client_image" Type="varchar" MaxLength="255" />
+    <Property Name="Client_adresse" Type="varchar" MaxLength="255" />
+    <Property Name="Client_CIN" Type="varchar" MaxLength="255" />
+    <Property Name="Client_age" Type="varchar" MaxLength="255" />
+    <Property Name="Client_Prenom" Type="varchar" MaxLength="255" />
+    <Property Name="Email" Type="varchar" MaxLength="255" />
+    <Property Name="User_id" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Demande">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientID2" Type="int" Nullable="false" />
+    <Property Name="ClientID" Type="int" Nullable="false" />
+    <Property Name="Demande_title" Type="varchar" MaxLength="255" />
+    <Property Name="Demande_description" Type="varchar" MaxLength="255" />
+    <Property Name="Date_debut" Type="date" />
+    <Property Name="Date_fin" Type="date" />
+  </EntityType>
+  <EntityType Name="Poste">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategorieID" Type="int" Nullable="false" />
+    <Property Name="ClientID2" Type="int" Nullable="false" />
+    <Property Name="ClientID" Type="int" Nullable="false" />
+    <Property Name="Poste_title" Type="varchar" MaxLength="255" />
+    <Property Name="Poste_image" Type="varchar" MaxLength="255" />
+    <Property Name="Poste_description" Type="varchar" MaxLength="255" />
+    <Property Name="Date_debut" Type="date" />
+    <Property Name="Date_fin" Type="date" />
+    <Property Name="Etat" Type="bit" />
+    <Property Name="Date_CreationPost" Type="datetime2" Precision="7" />
+    <Property Name="Pay" Type="varchar" MaxLength="250" />
+    <Property Name="Ville" Type="varchar" MaxLength="250" />
+    <Property Name="Adress" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="PublicitNavBar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Pub_image" Type="varchar" MaxLength="255" />
+    <Property Name="Pub_title" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__Avis__IdFormatio__15502E78">
+    <End Role="Poste" Type="Self.Poste" Multiplicity="0..1" />
+    <End Role="Avis" Type="Self.Avis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Poste">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Avis">
+        <PropertyRef Name="IdPoste" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AcriviteAvis">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="AcriviteAvis" Type="Self.AcriviteAvis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AcriviteAvis">
+        <PropertyRef Name="AcriviteAvi_client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AcriviteAvis2">
+    <End Role="Activite" Type="Self.Activite" Multiplicity="1" />
+    <End Role="AcriviteAvis" Type="Self.AcriviteAvis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activite">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AcriviteAvis">
+        <PropertyRef Name="AcriviteAvi_activite_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Activite">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Activite" Type="Self.Activite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Activite">
+        <PropertyRef Name="Activite_client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Activite2">
+    <End Role="Poste" Type="Self.Poste" Multiplicity="1" />
+    <End Role="Activite" Type="Self.Activite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Poste">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Activite">
+        <PropertyRef Name="Acrivite_poste_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Avis">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Avis" Type="Self.Avis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Avis">
+        <PropertyRef Name="IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Client" Type="Self.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKDemande126305">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Demande" Type="Self.Demande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Demande">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKDemande928989">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Demande" Type="Self.Demande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Demande">
+        <PropertyRef Name="ClientID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste488982">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Poste" Type="Self.Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste642112">
+    <End Role="Categorie" Type="Self.Categorie" Multiplicity="1" />
+    <End Role="Poste" Type="Self.Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorie">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="CategorieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKPoste686297">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Poste" Type="Self.Poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Poste">
+        <PropertyRef Name="ClientID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TourismeModelStoreContainer">
+    <EntitySet Name="AcriviteAvis" EntityType="Self.AcriviteAvis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Activite" EntityType="Self.Activite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Avis" EntityType="Self.Avis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categorie" EntityType="Self.Categorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Demande" EntityType="Self.Demande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Poste" EntityType="Self.Poste" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PublicitNavBar" EntityType="Self.PublicitNavBar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Avis__IdFormatio__15502E78" Association="Self.FK__Avis__IdFormatio__15502E78">
+      <End Role="Poste" EntitySet="Poste" />
+      <End Role="Avis" EntitySet="Avis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AcriviteAvis" Association="Self.FK_AcriviteAvis">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="AcriviteAvis" EntitySet="AcriviteAvis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AcriviteAvis2" Association="Self.FK_AcriviteAvis2">
+      <End Role="Activite" EntitySet="Activite" />
+      <End Role="AcriviteAvis" EntitySet="AcriviteAvis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Activite" Association="Self.FK_Activite">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Activite" EntitySet="Activite" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Activite2" Association="Self.FK_Activite2">
+      <End Role="Poste" EntitySet="Poste" />
+      <End Role="Activite" EntitySet="Activite" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Avis" Association="Self.FK_Avis">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Avis" EntitySet="Avis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client" Association="Self.FK_Client">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Client" EntitySet="Client" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FKDemande126305" Association="Self.FKDemande126305">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Demande" EntitySet="Demande" />
+    </AssociationSet>
+    <AssociationSet Name="FKDemande928989" Association="Self.FKDemande928989">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Demande" EntitySet="Demande" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste488982" Association="Self.FKPoste488982">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Poste" EntitySet="Poste" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste642112" Association="Self.FKPoste642112">
+      <End Role="Categorie" EntitySet="Categorie" />
+      <End Role="Poste" EntitySet="Poste" />
+    </AssociationSet>
+    <AssociationSet Name="FKPoste686297" Association="Self.FKPoste686297">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Poste" EntitySet="Poste" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
