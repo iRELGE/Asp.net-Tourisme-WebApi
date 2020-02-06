@@ -86,7 +86,7 @@ Cahier des charges
 8 - USE CASE 
 
 
-![uc](https://user-images.githubusercontent.com/51161973/73931334-6aca4c80-48d8-11ea-8e3d-5813fefb2395.png)
+![Screenshot 1](uc.png)
 
 
  
