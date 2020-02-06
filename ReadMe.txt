@@ -86,10 +86,10 @@ Cahier des charges
 8 - USE CASE 
 
 
-![Screenshot 1](./img/uc.png)
+![Screenshot 1](img/uc.png)
 
  
 9 - Diagramme de class :
-![Screenshot 2](./img/dc.png)
+![Screenshot 2](img/dc.png)
 
 
