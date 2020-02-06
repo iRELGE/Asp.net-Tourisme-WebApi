@@ -162,6 +162,10 @@ Les délais sont estimés vers 10 jours.
 ## 9 - Diagramme de class :
 ![Screenshot 2](img/dc.png)
 
+mise ajour
+![Screenshot 9](img/classtourisme.PNG)
+
+
 ## 10 - Diagramme de Séquence :
 ![Screenshot 8](img/sequence.png)
 
