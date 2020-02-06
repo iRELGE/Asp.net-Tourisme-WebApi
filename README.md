@@ -162,6 +162,9 @@ Les délais sont estimés vers 10 jours.
 ## 9 - Diagramme de class :
 ![Screenshot 2](img/dc.png)
 
+## 10 - Diagramme de Séquence :
+![Screenshot 8](img/sequence.png)
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # design graphic du projet
 
