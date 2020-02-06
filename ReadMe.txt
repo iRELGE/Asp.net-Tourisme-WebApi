@@ -86,10 +86,12 @@ Cahier des charges
 8 - USE CASE 
 
 
-<img src="https://github.com/iRELGE/Asp.net-Tourisme-WebApi/blob/master/img/uc.png?raw=true">
+![uc](https://user-images.githubusercontent.com/51161973/73931334-6aca4c80-48d8-11ea-8e3d-5813fefb2395.png)
+
 
  
 9 - Diagramme de class :
-![Screenshot 2](img/dc.png)
+![uc](https://github.com/iRELGE/Asp.net-Tourisme-WebApi/blob/master/img/dc.png?raw=true)
+
 
 
