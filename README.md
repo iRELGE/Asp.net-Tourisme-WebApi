@@ -15,8 +15,8 @@ TourismeEntities
 
 
 
+# Cahier des charges
 
-# Cahier des charges:
 
 
 ## 1 - Contexte et définition du projet:
@@ -102,6 +102,119 @@ Les délais sont estimés vers 10 jours.
  
 ## 9 - Diagramme de class :
 ![Screenshot 2](img/dc.png)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# design graphic du projet
+
+## accueil:
+............en cours de développement.
+![Screenshot 3](img/dp.jpg)
+
+## tableau de bord
+ 
+ ............en cours de développement.
+ 
+ ![Screenshot 4](img/dpd.jpg)
+ 
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ # Le projet tourisme partie ASP.NET
+ 
+Projet ASP.NET utilisant identité et entité Framework.
+
+## Les packages installés : 
+•	Microsoft.AspNet.WebApi.Cors.
+•	Microsoft.AspNet.Identity.Core
+•	EntityFramework
+•	Miscrosoft.Owin.Cors
+## Conception de Code : 
+•	Partie RESTAPI tourisme qui contient des contrôleurs et des models.
+•	Partie DATA sous forme d’une bibliothèque de classe qui contient un ADO lié avec notre base de données 
+•	Partie LOGIQUE qui contient des traitements hors métiers.
+## Les API à consommer :
+
+
+### AUTHENTIFICATION :
+
+![Screenshot 4](img/nb.jpg)
+
+#### •	Pour consommer API de registrement il faut utiliser le lien :
+#####  Api/sinscrire ainsi qu’envoyer les informations au body :
+
+Name(String), 
+LastName(String),
+Email(String),
+Password(String), 
+ConfirmPassword(String).
+
+#### •	Pour s’identifier il faut utiliser :
+  ##### /token et envoyer au body :(Post)
+
+##### -	"username=" + Le nom d’utilisateur + "& password d’utilisateur=" + password + "&grant_type=password” ;
+
+#### •	Et envoyer au header une autorisation (Post)
+##### -	var reqHeader = new HttpHeaders({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'True' }); { headers: reqHeader }
+### HOME:
+
+#### •	Pour avoir les postes par option ou par ordre il faut utiliser le lien (get) : 
+
+##### api/choioptionLimits/{prend}/{option}.
+
+#### •	Et pour option vous avez 3 types : Best et Date, et si vous n’avez pas mentionné votre option vous allez avoir les données aléatoirement.
+
+
+![Screenshot 5](img/bpt.jpg)
+
+•	Poste_image (string) 
+•	noteAvis (double)
+•	Poste_description (string)
+•	Poste_title (string)
+•	ID (int)
+ 
+ ![Screenshot 5](img/nh.jpg)
+
+•	Poste_image (string) 
+•	noteAvis (double)
+•	Poste_description (string)
+•	Poste_title (string)
+•	ID(int)
+![Screenshot 6](img/dod.jpg)
+
+•	les pays qui sont disponible sur les poste 
+•	Poste_image (string) 
+•	Pay(string)
+•	ID(int)
+![Screenshot 7](img/ba.jpg)
+
+#### •	Pour avoir les best activités il faut utiliser le lien (get) : 
+##### api/lesMeilleursActivites.
+•	Id(int)
+•	Activite_titre(string)
+•	Activite_image(string)
+•	Activite_NombreAvis(int)
+•	Activite_NoteAvis(double)
+
+
+
+
+### DASHBOARD utilisateur:
+#### touts les postes d’un utilisateur :
+##### routeTemplate: "api/AllUserPostsInfo/{id}",
+#### pour supprimer un post :
+##### routeTemplate: api/DeletePost/{id}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 
 
