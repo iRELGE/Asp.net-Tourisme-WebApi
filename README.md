@@ -96,12 +96,14 @@ Les délais sont estimés vers 10 jours.
 ## 8 - USE CASE: 
 
 
-![Screenshot 1](uc.png)
+![Screenshot 1](img/uc.png)
 
 
  
 ## 9 - Diagramme de class :
-![uc](https://github.com/iRELGE/Asp.net-Tourisme-WebApi/blob/master/img/dc.png?raw=true)
+![Screenshot 2](img/dc.png)
+
+
 
 
 
