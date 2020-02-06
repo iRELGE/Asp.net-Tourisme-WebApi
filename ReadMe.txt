@@ -86,7 +86,7 @@ Cahier des charges
 8 - USE CASE 
 
 
-![img](https://github.com/iRELGE/Asp.net-Tourisme-WebApi/blob/master/img/uc.png?raw=true)
+<img src="https://github.com/iRELGE/Asp.net-Tourisme-WebApi/blob/master/img/uc.png?raw=true">
 
  
 9 - Diagramme de class :
