@@ -129,7 +129,7 @@ Projet ASP.NET utilisant identité et entité Framework.
 ![Screenshot 4](img/nb.jpg)
 
 #### •	Pour consommer API de registrement il faut utiliser le lien :
-#####  Api/sinscrire ainsi qu’envoyer les informations au body :
+![Screenshot 100](img/PostManRegister.PNG)
 
 Name(String), 
 LastName(String),
