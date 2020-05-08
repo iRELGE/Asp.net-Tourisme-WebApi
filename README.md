@@ -129,6 +129,7 @@ Projet ASP.NET utilisant identité et entité Framework.
 ![Screenshot 4](img/nb.jpg)
 
 #### •	Pour consommer API de registrement il faut utiliser le lien :
+![Screenshot 106](img/Register.PNG)
 ![Screenshot 100](img/PostManRegister.PNG)
 
 Name(String), 
@@ -137,14 +138,26 @@ Email(String),
 Password(String), 
 ConfirmPassword(String).
 
-#### •	Pour s’identifier il faut utiliser :
+#### •	Pour Login il faut utiliser :
   ##### /token et envoyer au body :(Post)
+  ![Screenshot 107](img/Login.PNG)
+ ![Screenshot 101](img/PostmanLogin.PNG)
+
 
 ##### -	"username=" + Le nom d’utilisateur + "& password d’utilisateur=" + password + "&grant_type=password” ;
 
 #### •	Et envoyer au header une autorisation (Post)
 ##### -	var reqHeader = new HttpHeaders({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'True' }); { headers: reqHeader }
+#### •	les informations d'utilisateur :
+/api/Account/GetUserClaims
+ ![Screenshot 102](img/userLOginInfo.PNG)
 ### HOME:
+#### •	Pour afficher le slider il faut utiliser le lien (get) : 
+http://localhost:51473/api/SliderPubPhoto
+![Screenshot 103](img/slider.PNG)
+![Screenshot 104](img/getsliderPostman.PNG)
+#### •	Pour Poster image slider il faut utiliser le lien (Post) : 
+![Screenshot 105](img/sliderPostPostman.PNG)
 
 #### •	Pour avoir les postes par option ou par ordre il faut utiliser le lien (get) : 
 
