@@ -137,7 +137,9 @@ LastName(String),
 Email(String),
 Password(String), 
 ConfirmPassword(String).
-
+#### •	il faut confirmer votre email  :
+vous recevrez un un lien cliquable sur votre adress mail 
+![Screenshot 108](img/email confirmation.PNG)
 #### •	Pour Login il faut utiliser :
   ##### /token et envoyer au body :(Post)
   ![Screenshot 107](img/Login.PNG)
