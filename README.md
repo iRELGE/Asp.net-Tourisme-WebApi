@@ -139,7 +139,7 @@ Password(String),
 ConfirmPassword(String).
 #### •	il faut confirmer votre email  :
 vous recevrez un un lien cliquable sur votre adress mail 
-![Screenshot 108](img/email confirmation.PNG)
+![Screenshot 108](img/amilconfirmation.PNG)
 #### •	Pour Login il faut utiliser :
   ##### /token et envoyer au body :(Post)
   ![Screenshot 107](img/Login.PNG)
@@ -155,7 +155,7 @@ vous recevrez un un lien cliquable sur votre adress mail
  ![Screenshot 102](img/userLOginInfo.PNG)
 ### HOME:
 #### •	Pour afficher le slider il faut utiliser le lien (get) : 
-http://localhost:51473/api/SliderPubPhoto
+/api/SliderPubPhoto
 ![Screenshot 103](img/slider.PNG)
 ![Screenshot 104](img/getsliderPostman.PNG)
 #### •	Pour Poster image slider il faut utiliser le lien (Post) : 
@@ -166,9 +166,127 @@ http://localhost:51473/api/SliderPubPhoto
 ##### api/choioptionLimits/{prend}/{option}.
 
 #### •	Et pour option vous avez 3 types : Best et Date, et si vous n’avez pas mentionné votre option vous allez avoir les données aléatoirement.
+![Screenshot 110](img/meiPostsget.PNG)
+![Screenshot 111](img/meiPostPostmanGet.PNG)
+
+Vous aurez une liste des objet:
+[
+    {
+        "ID": 1008,
+        "CategorieID": 3,
+        "Categorie": "maladie",
+        "ClientID2": null,
+        "ClientID": 2,
+        "Poste_title": "Travel",
+        "Poste_image": "ecwe001170205640083.jpg",
+        "Poste_description": "Travel toUSA",
+        "Date_debut": "2020-05-07T00:00:00",
+        "Date_fin": "2020-07-07T00:00:00",
+        "Pay": "Usa",
+        "Ville": null,
+        "Adress": null,
+        "Etat": null,
+        "nombreAvis": 0.0,
+        "noteAvis": null,
+        "Client_Nom": "xman",
+        "Client_image": null,
+        "Client_adresse": null,
+        "Client_Prenom": "xxman",
+        "Email": "xxman@gmail.com",
+        "avis": [],
+        "Client": null
+    },
+    {
+        "ID": 1007,
+        "CategorieID": 3,
+        "Categorie": "maladie",
+        "ClientID2": null,
+        "ClientID": 2,
+        "Poste_title": "Travel",
+        "Poste_image": "ecwe001170205632886.jpg",
+        "Poste_description": "Travel toUSA",
+        "Date_debut": "2020-05-07T00:00:00",
+        "Date_fin": "2020-07-07T00:00:00",
+        "Pay": "Usa",
+        "Ville": null,
+        "Adress": null,
+        "Etat": null,
+        "nombreAvis": 0.0,
+        "noteAvis": null,
+        "Client_Nom": "xman",
+        "Client_image": null,
+        "Client_adresse": null,
+        "Client_Prenom": "xxman",
+        "Email": "xxman@gmail.com",
+        "avis": [],
+        "Client": null
+    },
+    {
+        "ID": 1006,
+        "CategorieID": 3,
+        "Categorie": "maladie",
+        "ClientID2": null,
+        "ClientID": 2,
+        "Poste_title": "Travel",
+        "Poste_image": "ecwe001170205434350.jpg",
+        "Poste_description": "Travel toUSA",
+        "Date_debut": "2020-05-07T00:00:00",
+        "Date_fin": "2020-07-07T00:00:00",
+        "Pay": "Usa",
+        "Ville": null,
+        "Adress": null,
+        "Etat": null,
+        "nombreAvis": 0.0,
+        "noteAvis": null,
+        "Client_Nom": "xman",
+        "Client_image": null,
+        "Client_adresse": null,
+        "Client_Prenom": "xxman",
+        "Email": "xxman@gmail.com",
+        "avis": [],
+        "Client": null
+    },
+    {
+        "ID": 1005,
+        "CategorieID": 3,
+        "Categorie": "maladie",
+        "ClientID2": null,
+        "ClientID": 2,
+        "Poste_title": "Travel",
+        "Poste_image": "images205340072.jpg",
+        "Poste_description": "Travel toUSA",
+        "Date_debut": "2020-05-07T00:00:00",
+        "Date_fin": "2020-07-07T00:00:00",
+        "Pay": "Usa",
+        "Ville": null,
+        "Adress": null,
+        "Etat": null,
+        "nombreAvis": 0.0,
+        "noteAvis": null,
+        "Client_Nom": "xman",
+        "Client_image": null,
+        "Client_adresse": null,
+        "Client_Prenom": "xxman",
+        "Email": "xxman@gmail.com",
+        "avis": [],
+        "Client": null
+    }
+]
+### Pour poster un poste:
+/api/AddPost
+![Screenshot 113](img/PosterPostman.PNG)
+vous aurez une réponse OK 200 
+### Pour Modifier un poste:
+/api/AddPost
+![Screenshot 114](img/PutPostPostman.PNG)
+vous aurez une réponse OK 200 
+### Pour supprimer un poste:
+/api/DeletePostes/{id}
+![Screenshot 115](img/deletePostPostMan.PNG)
+vous aurez une réponse OK 200 
 
 
-![Screenshot 5](img/bpt.jpg)
+
 
 •	Poste_image (string) 
 •	noteAvis (double)
