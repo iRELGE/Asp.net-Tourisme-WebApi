@@ -97,12 +97,12 @@ mise ajour
 # design graphic du projet
 
 ## accueil:
-............en cours de développement.
+En cours de développement.
 ![Screenshot 3](img/dp.jpg)
 
 ## tableau de bord
  
- ............en cours de développement.
+ En cours de développement.
  
  ![Screenshot 4](img/dpd.jpg)
  
