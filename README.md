@@ -170,11 +170,7 @@ vous recevrez un un lien cliquable sur votre adress mail
 ![Screenshot 111](img/meiPostPostmanGet.PNG)
 
 Vous aurez une liste des objet:
-[
-    {
-      
-    }
-]
+[{}]
 ### Pour poster un poste:
 /api/AddPost
 ![Screenshot 113](img/PosterPostman.PNG)
