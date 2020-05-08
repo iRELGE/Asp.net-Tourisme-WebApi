@@ -1,0 +1,56 @@
+CREATE TABLE Categorie ([ID] int NOT NULL IDENTITY, [Id_categorie] int NOT NULL, [Catégorie_title] varchar(255), [Catégorie_icone] varchar(255), PRIMARY KEY ([ID]));
+CREATE TABLE Poste ([ID] int NOT NULL IDENTITY, [CategorieID] int NOT NULL, [ClientID2] int NOT NULL, [ClientID] int NOT NULL, [Id_poste] int NOT NULL, [Poste_title] varchar(255), [Poste_image] varchar(255), [Poste_description] varchar(255), [Date_debut] date, [Date_fin] date, [Etat] int, PRIMARY KEY ([ID]));
+CREATE TABLE Client ([ID] int NOT NULL IDENTITY, [Id_client] int NOT NULL, [Client_title] varchar(255), [Client_image] varchar(255), [Client_adresse] varchar(255), [Client_CIN] varchar(255), [Client_age] varchar(255), PRIMARY KEY ([ID]));
+CREATE TABLE Demande ([ID] int NOT NULL IDENTITY, [ClientID2] int NOT NULL, [ClientID] int NOT NULL, [Id_demande] int NOT NULL, [Demande_title] varchar(255), [Demande_description] varchar(255), [Date_debut] date, [Date_fin] date, PRIMARY KEY ([ID]));
+
+ALTER TABLE Poste ADD CONSTRAINT [FKPoste488982] FOREIGN KEY ([ClientID]) REFERENCES Client ([ID]);
+ALTER TABLE Poste ADD CONSTRAINT [FKPoste686297] FOREIGN KEY ([ClientID2]) REFERENCES Client ([ID]);
+ALTER TABLE Demande ADD CONSTRAINT [FKDemande126305] FOREIGN KEY ([ClientID]) REFERENCES Client ([ID]);
+ALTER TABLE Demande ADD CONSTRAINT [FKDemande928989] FOREIGN KEY ([ClientID2]) REFERENCES Client ([ID]);
+ALTER TABLE Poste ADD CONSTRAINT [FKPoste642112] FOREIGN KEY ([CategorieID]) REFERENCES Categorie ([ID]);
+CREATE TABLE [dbo].[Avis] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [Nom]         VARCHAR (100) NULL,
+    [Description] VARCHAR (300) NULL,
+    [Note]        FLOAT (53)    NULL,
+    [IdPoste]     INT           NULL,
+    [DateAvi]     DATETIME2 (7) NULL,
+    [IdClient]    INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Avis] FOREIGN KEY ([IdClient]) REFERENCES [dbo].[Client] ([ID]),
+    CONSTRAINT [FK__Avis__IdFormatio__15502E78] FOREIGN KEY ([IdPoste]) REFERENCES [dbo].[Poste] ([ID])
+);
+
+CREATE TABLE [dbo].[Activite] (
+    [Id]                     INT            IDENTITY (1, 1) NOT NULL,
+    [Activite_titre]         NVARCHAR (200) NULL,
+    [Activite_description]   NVARCHAR (500) NULL,
+    [Activite_image]         NVARCHAR (150) NULL,
+    [Activite_client_id]     INT            NOT NULL,
+    [Acrivite_poste_id]      INT            NOT NULL,
+    [Acrivite_date-creation] DATE           NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Activite] FOREIGN KEY ([Activite_client_id]) REFERENCES [dbo].[Client] ([ID]),
+    CONSTRAINT [FK_Activite2] FOREIGN KEY ([Acrivite_poste_id]) REFERENCES [dbo].[Poste] ([ID])
+);
+
+CREATE TABLE [dbo].[AcriviteAvis] (
+    [Id]                       INT            IDENTITY (1, 1) NOT NULL,
+    [AcriviteAvi_Titre]        NVARCHAR (150) NULL,
+    [AcriviteAvi_description]  NVARCHAR (500) NULL,
+    [AcriviteAvi_note]         FLOAT (53)     NULL,
+    [AcriviteAvi_client_id]    INT            NOT NULL,
+    [AcriviteAvi_activite_id]  INT            NOT NULL,
+    [AcriviteAvi_datecreation] DATE           NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_AcriviteAvis] FOREIGN KEY ([AcriviteAvi_client_id]) REFERENCES [dbo].[Client] ([ID]),
+    CONSTRAINT [FK_AcriviteAvis2] FOREIGN KEY ([AcriviteAvi_activite_id]) REFERENCES [dbo].[Activite] ([Id])
+);
+
+CREATE TABLE [dbo].[PublicitNavBar] (
+    [ID]        INT           IDENTITY (1, 1) NOT NULL,
+    [Pub_image] VARCHAR (255) NULL,
+    [Pub_title] VARCHAR (255) NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
